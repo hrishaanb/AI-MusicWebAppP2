@@ -2,7 +2,7 @@ harry_potter = "";
 peter_pan = "";
 function setup () {
     canvas = createCanvas(600, 500);
-    canvas.center();
+    canvas.position(450, 200);
     video = createCapture(VIDEO);
     video.hide();
 }
